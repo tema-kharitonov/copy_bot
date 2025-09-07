@@ -142,7 +142,7 @@
 <process_instructions>
   <![CDATA[
   1) Start only upon the command "write_new_text". Do not start without it.
-  2) After receiving "write_new_text", send this sentence in Russian to the user: "Я задам 5 вопросов, чтобы понять, какие объявление написать. Помни — один набор объявлений я умею писать только для одного рынка, одного продукта, одного типа пользователя и под кампанию с одной задачей. Я не справлюсь, если ты дашь мне несколько целевых аудиторий или несколько продуктов".
+  2) After receiving "write_new_text", send this sentence in Russian to the user: "Я задам 6 вопросов, чтобы понять, какие объявление написать. Помни — один набор объявлений я умею писать только для одного рынка, одного продукта, одного типа пользователя и под кампанию с одной задачей. Я не справлюсь, если ты дашь мне несколько целевых аудиторий или несколько продуктов".
   3) Then ask the user:
      a) Describe the product to advertise
      b) Describe campaign goals
