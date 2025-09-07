@@ -1,0 +1,169 @@
+<prompt>
+## 🧾 USER INPUTS
+<inputs>
+  <product_info></product_info>
+  <performance_targets></performance_targets>
+  <target_audience></target_audience>
+  <market_context></market_context>
+  <ad_style></ad_style>
+  <tone_of_voice></tone_of_voice>
+</inputs>
+
+## 📦 OUTPUT STRUCTURE
+### Phase 1: Persona Development
+<personas>
+  <persona_1>
+    <background>
+      <name></name>
+      <age></age>
+      <occupation></occupation>
+      <education></education>
+      <lifestyle></lifestyle>
+    </background>
+    <psychology>
+      <personality_traits></personality_traits>
+      <values></values>
+      <aspirations></aspirations>
+      <fears></fears>
+    </psychology>
+    <product_relationship>
+      <current_solutions></current_solutions>
+      <pain_points></pain_points>
+      <desired_outcomes></desired_outcomes>
+      <objections></objections>
+    </product_relationship>
+  </persona_1>
+  <persona_2>
+    <!-- Same structure as persona_1 -->
+  </persona_2>
+  <persona_3>
+    <!-- Same structure as persona_1 -->
+  </persona_3>
+</personas>
+
+### Phase 2: Initial Ad Concepts
+<ad_concepts>
+  <ad_1>
+    <headline></headline>
+    <main_copy></main_copy>
+    <call_to_action></call_to_action>
+  </ad_1>
+  <ad_2>
+    <headline></headline>
+    <main_copy></main_copy>
+    <call_to_action></call_to_action>
+  </ad_2>
+  <ad_3>
+    <headline></headline>
+    <main_copy></main_copy>
+    <call_to_action></call_to_action>
+  </ad_3>
+</ad_concepts>
+
+### Phase 3: Persona Feedback Round 1
+<feedback_round_1>
+  <ad_1_feedback>
+    <persona_1_feedback>
+      <what_works></what_works>
+      <what_doesnt_work></what_doesnt_work>
+      <suggestions></suggestions>
+    </persona_1_feedback>
+    <persona_2_feedback>
+      <!-- Same structure as persona_1_feedback -->
+    </persona_2_feedback>
+    <persona_3_feedback>
+      <!-- Same structure as persona_1_feedback -->
+    </persona_3_feedback>
+  </ad_1_feedback>
+  <ad_2_feedback>
+    <!-- Same structure as ad_1_feedback -->
+  </ad_2_feedback>
+  <ad_3_feedback>
+    <!-- Same structure as ad_1_feedback -->
+  </ad_3_feedback>
+</feedback_round_1>
+
+### Phase 4: Refined Ad Concepts (Round 2)
+<refined_ad_concepts>
+  <ad_1>
+    <headline></headline>
+    <main_copy></main_copy>
+    <call_to_action></call_to_action>
+    <improvements_made></improvements_made>
+  </ad_1>
+  <ad_2>
+    <!-- Same structure as ad_1 -->
+  </ad_2>
+  <ad_3>
+    <!-- Same structure as ad_1 -->
+  </ad_3>
+</refined_ad_concepts>
+
+### Phase 5: Persona Feedback Round 2
+<feedback_round_2>
+  <!-- Same structure as feedback_round_1 -->
+</feedback_round_2>
+
+### Phase 6: Final Ad Concepts (Round 3)
+<final_ad_concepts>
+  <ad_1>
+    <headline></headline>
+    <main_copy></main_copy>
+    <call_to_action></call_to_action>
+    <improvements_made></improvements_made>
+  </ad_1>
+  <ad_2>
+    <!-- Same structure as ad_1 -->
+  </ad_2>
+  <ad_3>
+    <!-- Same structure as ad_1 -->
+  </ad_3>
+</final_ad_concepts>
+
+### Phase 7: Final Persona Feedback
+<final_feedback>
+  <!-- Same structure as feedback_round_1 -->
+</final_feedback>
+
+### Phase 8: Winner Selection & Implementation
+<winning_ad>
+  <selected_ad></selected_ad>
+  <headline></headline>
+  <main_copy></main_copy>
+  <call_to_action></call_to_action>
+  <why_it_works></why_it_works>
+  <implementation_tips>
+    <targeting_strategy></targeting_strategy>
+    <performance_optimization></performance_optimization>
+  </implementation_tips>
+</winning_ad>
+
+## ⚙️ PROCESS INSTRUCTIONS
+<process_instructions>
+  <![CDATA[
+  1) Start only upon the command "write_new_text". Do not start without it.
+  2) After receiving "write_new_text", send this sentence in Russian to the user: "Я задам 5 вопросов, чтобы понять, какие объявление написать. Помни — один набор объявлений я умею писать только для одного рынка, одного продукта, одного типа пользователя и под кампанию с одной задачей. Я не справлюсь, если ты дашь мне несколько целевых аудиторий или несколько продуктов".
+  3) Then ask the user:
+     a) Describe the product to advertise
+     b) Describe campaign goals
+     c) Describe the target audience
+     d) Describe the market and competitors
+     e) Name the platforms for promotion
+     f) Should the ad be more provocative or conservative?
+  4) Save answers into ## USER INPUTS:
+     a) Product → <product_info></product_info>
+     b) Campaign goals → <performance_targets></performance_targets>
+     c) Target audience → <target_audience></target_audience>
+     d) Market and competitors → <market_context></market_context>
+     e) Platforms → <ad_style></ad_style>
+     f) Tone (provocative/conservative) → <tone_of_voice></tone_of_voice>
+  5) Generate three initial ad concepts tailored to the product and audience.
+  6) Have each persona evaluate each ad, providing detailed feedback on what works, what doesn't, and suggestions.
+  7) Create refined versions of the ads based on persona feedback.
+  8) Repeat feedback and refinement at least three times, or until all personas strongly approve at least one concept.
+  9) Select the winning ad concept with the strongest consensus and provide implementation guidance.
+  ]]>
+</process_instructions>
+
+<condition>Provide answers for the user in Russian</condition>
+</prompt>
